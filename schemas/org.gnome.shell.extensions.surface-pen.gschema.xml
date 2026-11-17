@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.surface-pen" path="/org/gnome/shell/extensions/surface-pen/">
+    <key name="single-app" type="s"><default>'com.github.xournalpp.xournalpp.desktop'</default></key>
+    <key name="double-app" type="s"><default>'libreoffice-impress.desktop'</default></key>
+    <key name="hold-app" type="s"><default>''</default></key>
+    <key name="presentation" type="s"><choices><choice value="auto"/><choice value="on"/><choice value="off"/></choices><default>'auto'</default></key>
+    <key name="single-shortcut" type="as"><default>['&lt;Super&gt;XF86AudioMicMute', '&lt;Super&gt;F20', 'F20']</default></key>
+    <key name="double-shortcut" type="as"><default>['&lt;Super&gt;F19', 'F19']</default></key>
+    <key name="hold-shortcut" type="as"><default>['&lt;Super&gt;XF86Launch9', '&lt;Super&gt;F18', 'F18']</default></key>
+  </schema>
+</schemalist>

@@ -1,0 +1,21 @@
+name: Checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: sudo apt-get update && sudo apt-get install -y libglib2.0-bin
+      - run: node --test tests/*.test.js
+      - run: node --check extension.js && node --check prefs.js
+      - run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - run: python3 build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: surface-pen-gnome
+          path: dist/*.zip

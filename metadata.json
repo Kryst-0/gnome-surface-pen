@@ -1,0 +1,13 @@
+{
+  "uuid": "surface-pen@kryst-0.github.io",
+  "name": "Surface Pen",
+  "description": "Surface Pen Bluetooth button: app shortcuts and presentation remote. GNOME port of omarchy-surface-pen.",
+  "shell-version": [
+    "49",
+    "50",
+    "51"
+  ],
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.surface-pen",
+  "url": "https://github.com/Kryst-0/gnome-surface-pen"
+}
