@@ -10,11 +10,13 @@ Prima versione da collaudare su Fedora GNOME con la penna reale. Metadati predis
 
 ## Installazione su Fedora GNOME
 
-Per Fedora Workstation tradizionale (non Silverblue). Eseguire nella sessione grafica GNOME come utente normale:
+Il repository è privato: serve un account GitHub autorizzato. Per Fedora Workstation tradizionale (non Silverblue). Eseguire nella sessione grafica GNOME come utente normale:
 
 ```bash
-sudo dnf install git python3 glib2 gnome-extensions-app
-git clone https://github.com/Kryst-0/gnome-surface-pen.git
+sudo dnf install git gh python3 glib2 gnome-extensions-app
+gh auth login
+gh auth setup-git
+gh repo clone Kryst-0/gnome-surface-pen
 cd gnome-surface-pen
 python3 build.py --install
 ```
