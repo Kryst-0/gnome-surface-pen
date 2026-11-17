@@ -1,0 +1,18 @@
+{
+  "title": "Surface Pen",
+  "single": "Clic",
+  "double": "Doppio clic",
+  "hold": "Pressione lunga",
+  "none": "Nessuna app",
+  "search": "Cerca un'app…",
+  "auto": "Slide: automatico",
+  "on": "Slide: sempre",
+  "off": "Slide: disattivato",
+  "hint": "Durante le slide: clic → avanti, doppio clic → indietro. Automatico riconosce Impress, lettori PDF e PDF di Firefox a schermo intero, Google Slides e PowerPoint dal titolo.",
+  "connected": "Penna connessa",
+  "disconnected": "Penna non connessa: premi il pulsante per riconnetterla.",
+  "error": "Operazione non riuscita",
+  "close": "Chiudi",
+  "choose": "Scegli l'app per il gesto selezionato",
+  "bluetooth": "Bluetooth"
+}

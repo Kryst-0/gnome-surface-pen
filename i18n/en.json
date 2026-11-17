@@ -1,0 +1,18 @@
+{
+  "title": "Surface Pen",
+  "single": "Click",
+  "double": "Double click",
+  "hold": "Long press",
+  "none": "No app",
+  "search": "Search apps…",
+  "auto": "Slides: automatic",
+  "on": "Slides: always",
+  "off": "Slides: disabled",
+  "hint": "During slides: click → next, double click → previous. Automatic detects fullscreen Impress, PDF viewers and Firefox PDFs, Google Slides and PowerPoint by title.",
+  "connected": "Pen connected",
+  "disconnected": "Pen disconnected: press its button to reconnect.",
+  "error": "Operation failed",
+  "close": "Close",
+  "choose": "Choose an app for the selected gesture",
+  "bluetooth": "Bluetooth"
+}
